@@ -1,5 +1,27 @@
-2025-12-31 13:49:28.418 [main] INFO  pages.HomePage - CLICK ON LANGAUGE LOGO
-2025-12-31 13:49:44.269 [main] INFO  pages.HomePage - Successfully navigate langauge page
-2025-12-31 13:49:44.270 [main] INFO  pages.HomePage - Test Case Pass
-2025-12-31 13:49:44.295 [main] INFO  pages.HomePage - User wants to change language to: Hello
-2025-12-31 13:49:44.734 [main] ERROR pages.HomePage - Language not found: Hello
+2025-12-31 14:51:37.717 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
+2025-12-31 14:51:40.954 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_OpenSingInPage
+2025-12-31 14:51:42.453 [main] INFO  pages.SignInPage - Starting login test with expected result: pass
+2025-12-31 14:51:42.457 [main] INFO  pages.SignInPage - Entering email
+2025-12-31 14:51:43.287 [main] INFO  pages.SignInPage - Clicking Continue button
+2025-12-31 14:51:45.864 [main] INFO  pages.SignInPage - Entering password
+2025-12-31 14:51:46.376 [main] INFO  pages.SignInPage - Clicking Sign In button
+2025-12-31 14:51:51.195 [main] INFO  pages.SignInPage - Validating successful login
+2025-12-31 14:51:51.195 [main] INFO  pages.SignInPage - Checking if user is logged in
+2025-12-31 14:51:57.052 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_FillCreds
+2025-12-31 14:51:57.062 [main] INFO  pages.SignInPage - Starting login test with expected result: fail
+2025-12-31 14:51:57.063 [main] INFO  pages.SignInPage - Entering email
+2025-12-31 14:51:57.538 [main] INFO  pages.SignInPage - Clicking Continue button
+2025-12-31 14:51:59.716 [main] INFO  pages.SignInPage - Entering password
+2025-12-31 14:52:00.138 [main] INFO  pages.SignInPage - Clicking Sign In button
+2025-12-31 14:52:02.392 [main] INFO  pages.SignInPage - Validating login failure
+2025-12-31 14:52:02.395 [main] INFO  pages.SignInPage - Checking login error message
+2025-12-31 14:52:02.465 [main] ERROR pages.SignInPage - Login error message displayed: There was a problem
+2025-12-31 14:52:02.648 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_FillCreds
+2025-12-31 14:52:10.895 [main] INFO  pages.HomePage - CLICK ON LANGAUGE LOGO
+2025-12-31 14:52:13.162 [main] INFO  pages.HomePage - Successfully navigate langauge page
+2025-12-31 14:52:13.163 [main] INFO  pages.HomePage - Test Case Pass
+2025-12-31 14:52:13.351 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_ClcikOnLangaugeLogo
+2025-12-31 14:52:13.358 [main] INFO  pages.HomePage - User wants to change language to: HI
+2025-12-31 14:52:13.935 [main] INFO  pages.HomePage - Language changed successfully to: HI
+2025-12-31 14:52:17.188 [main] INFO  pages.HomePage - Language changed successfully
+2025-12-31 14:52:17.514 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_ClickOnLangaugebtn

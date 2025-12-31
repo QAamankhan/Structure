@@ -1,12 +1,16 @@
 package pages;
 
+import java.time.Duration;
 import java.util.List;
+import java.util.concurrent.TimeoutException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import base.BaseClass;
 
@@ -45,40 +49,43 @@ public class HomePage extends BaseClass {
 	private List<WebElement> listOfLangElement;
 	@FindBy(xpath = "//span[@id='icp-save-button']")
 	private WebElement langchangebtnElement;
-	@FindBy(xpath = "//span[@id='nav-link-accountList-nav-line-1']") private WebElement hindilangElement;
-	
+	@FindBy(xpath = "//span[@id='nav-link-accountList-nav-line-1']")
+	private WebElement hindilangElement;
+
 	public void selectLanguage(String lang) {
-	    log.info("User wants to change language to: " + lang);
-	    boolean isLangFound = false;
+		log.info("User wants to change language to: " + lang);
+		boolean isLangFound = false;
 
-	    for (WebElement language : listOfLangElement) {
-	        if (language.getText().equalsIgnoreCase(lang.toUpperCase())) {
-	            ElementClickable(language);
-	            isLangFound = true;
-	            break;
-	        }
-	    }
+		for (WebElement language : listOfLangElement) {
+			if (language.getText().equalsIgnoreCase(lang.toUpperCase())) {
+				ElementClickable(language);
+				isLangFound = true;
+				break;
+			}
+		}
 
-	    if (isLangFound) {
-	        ElementClickable(langchangebtnElement);
-	        log.info("Language changed successfully to: " + lang);
-	    } else {
-	        log.error("Language not found: " + lang);
-	    }
+		if (isLangFound) {
+			ElementClickable(langchangebtnElement);
+			log.info("Language changed successfully to: " + lang);
+		} else {
+			log.error("Language not found: " + lang);
+		}
 	}
 
-	
-	
-	
-	public boolean isLanguageChanged() {
+	public boolean isLanguageChanged() throws Exception {
 	    try {
-	        if (hindilangElement.getText().contains("नमस्ते")) {
-	            log.info("Language changed successfully");
-	            return true;
-	        }
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        wait.until(ExpectedConditions.textToBePresentInElement(
+	                hindilangElement, "नमस्ते"));
+
+	        log.info("Language changed successfully");
+	        return true;
+
 	    } catch (Exception e) {
-	        log.error("Language change verification failed", e);
+	        log.error("Language change not applied" +e);
+	        return false;
 	    }
-	    return false;
 	}
+
+	
 }

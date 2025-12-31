@@ -66,7 +66,9 @@ public class ListenerClass implements ITestListener{
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		String screenshotPath = BaseTest.ScreenShots(result.getMethod().getMethodName(),"pass");
+		String className = result.getTestClass().getRealClass().getSimpleName();
+		String methodName = result.getMethod().getMethodName();
+		String screenshotPath =BaseTest.ScreenShots(className+"_"+methodName,"pass");
 	    log.info("TEST PASSED : {}", result.getName());
 
 		test = reports.createTest(result.getName());
@@ -76,7 +78,9 @@ public class ListenerClass implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		String screenshotPath =BaseTest.ScreenShots(result.getMethod().getMethodName(),"fail");
+		String className = result.getTestClass().getRealClass().getSimpleName();
+		String methodName = result.getMethod().getMethodName();
+		String screenshotPath =BaseTest.ScreenShots(className+"_"+methodName,"fail");
 	    log.error("TEST FAILED : {}", result.getName());
 
 		test = reports.createTest(result.getName());

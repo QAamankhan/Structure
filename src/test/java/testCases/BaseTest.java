@@ -11,7 +11,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 
@@ -23,7 +25,7 @@ public class BaseTest {
 	public static WebDriver driver;
 	ReadConfig rc;
 	
-	@BeforeSuite(alwaysRun = true)
+	@BeforeClass(alwaysRun = true)
 	public void OpenBrowser() {
 		rc = new ReadConfig();
 		
@@ -71,7 +73,7 @@ public class BaseTest {
 	
 
 	
-	@AfterSuite(alwaysRun = true)
+	@AfterClass(alwaysRun = true)
 	public void TearDown() {
 		driver.close();
 	}

@@ -10,7 +10,7 @@
         <methods>
           <include name="OpenBrowser"/>
           <include name="TearDown"/>
-          <include name="TC02_FillCreds" invocation-numbers="1"/>
+          <include name="TC02_FillCreds" invocation-numbers="0"/>
           <include name="Objcet"/>
         </methods>
       </class> <!-- testCases.SignInValidation -->

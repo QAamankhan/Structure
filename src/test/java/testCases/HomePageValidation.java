@@ -24,12 +24,12 @@ public class HomePageValidation extends BaseTest{
 	public void TC01_ClcikOnLangaugeLogo() {
 		hp.ClickOnLogoChangeLangauge();
 		boolean result=hp.NavigateLangaugePage();
-		log.info("Test Case Pass");
+		
 		Assert.assertEquals(result, true);
 	}
 	
 	@Test
-	public void TC02_ClickOnLangaugebtn() {
+	public void TC02_ClickOnLangaugebtn() throws Exception {
 		hp.selectLanguage("HI");
 		boolean result=hp.isLanguageChanged();
 		Assert.assertEquals(result, true);
