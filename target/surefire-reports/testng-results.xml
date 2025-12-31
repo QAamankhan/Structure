@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-29T15:44:17 IST" name="Suite" finished-at="2025-12-29T15:44:41 IST" duration-ms="23770">
+  <suite started-at="2025-12-29T17:20:49 IST" name="Suite" finished-at="2025-12-29T17:21:14 IST" duration-ms="24729">
     <groups>
       <group name="HomePage">
         <method signature="SignInValidation.TC01_OpenSingInPage()[pri:0, instance:testCases.SignInValidation@20ca951f]" name="TC01_OpenSingInPage" class="testCases.SignInValidation"/>
@@ -17,25 +17,25 @@
         <method signature="SignInValidation.TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@20ca951f]" name="TC02_FillCreds" class="testCases.SignInValidation"/>
       </group> <!-- SignIn -->
     </groups>
-    <test started-at="2025-12-29T15:44:17 IST" name="Test" finished-at="2025-12-29T15:44:41 IST" duration-ms="23770">
+    <test started-at="2025-12-29T17:20:49 IST" name="Test" finished-at="2025-12-29T17:21:14 IST" duration-ms="24729">
       <class name="testCases.SignInValidation">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T15:44:09 IST" name="OpenBrowser" finished-at="2025-12-29T15:44:17 IST" duration-ms="8254" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T17:20:38 IST" name="OpenBrowser" finished-at="2025-12-29T17:20:49 IST" duration-ms="10912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T15:44:18 IST" name="Objcet" finished-at="2025-12-29T15:44:18 IST" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T17:20:50 IST" name="Objcet" finished-at="2025-12-29T17:20:50 IST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Objcet -->
-        <test-method signature="TC01_OpenSingInPage()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T15:44:18 IST" name="TC01_OpenSingInPage" finished-at="2025-12-29T15:44:20 IST" duration-ms="2061" status="PASS">
+        <test-method signature="TC01_OpenSingInPage()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T17:20:50 IST" name="TC01_OpenSingInPage" finished-at="2025-12-29T17:20:52 IST" duration-ms="1819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_OpenSingInPage -->
-        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T15:44:22 IST" name="Objcet" finished-at="2025-12-29T15:44:22 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T17:20:54 IST" name="Objcet" finished-at="2025-12-29T17:20:54 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Objcet -->
-        <test-method signature="TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T15:44:22 IST" name="TC02_FillCreds" data-provider="ExcelData" finished-at="2025-12-29T15:44:35 IST" duration-ms="13915" status="PASS">
+        <test-method signature="TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T17:20:54 IST" name="TC02_FillCreds" data-provider="ExcelData" finished-at="2025-12-29T17:21:08 IST" duration-ms="14605" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_FillCreds -->
-        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T15:44:36 IST" name="Objcet" finished-at="2025-12-29T15:44:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T17:21:09 IST" name="Objcet" finished-at="2025-12-29T17:21:09 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Objcet -->
-        <test-method signature="TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T15:44:36 IST" name="TC02_FillCreds" data-provider="ExcelData" finished-at="2025-12-29T15:44:41 IST" duration-ms="4890" status="PASS">
+        <test-method signature="TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T17:21:09 IST" name="TC02_FillCreds" data-provider="ExcelData" finished-at="2025-12-29T17:21:14 IST" duration-ms="5086" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_FillCreds -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T15:44:42 IST" name="TearDown" finished-at="2025-12-29T15:44:42 IST" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.SignInValidation@20ca951f]" started-at="2025-12-29T17:21:15 IST" name="TearDown" finished-at="2025-12-29T17:21:15 IST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

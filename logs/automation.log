@@ -1,45 +1,5 @@
-2025-12-29 15:44:18.357 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
-2025-12-29 15:44:20.573 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_OpenSingInPage
-2025-12-29 15:44:22.082 [main] INFO  testCases.SignInValidation - Starting login test with expected result: pass
-2025-12-29 15:44:22.083 [main] INFO  pages.SignInPage - Entering email
-2025-12-29 15:44:22.623 [main] INFO  pages.SignInPage - Clicking Continue button
-2025-12-29 15:44:25.438 [main] INFO  pages.SignInPage - Entering password
-2025-12-29 15:44:25.873 [main] INFO  pages.SignInPage - Clicking Sign In button
-2025-12-29 15:44:31.960 [main] INFO  testCases.SignInValidation - Validating successful login
-2025-12-29 15:44:31.962 [main] INFO  pages.SignInPage - Checking if user is logged in
-2025-12-29 15:44:36.136 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_FillCreds
-2025-12-29 15:44:36.142 [main] INFO  testCases.SignInValidation - Starting login test with expected result: fail
-2025-12-29 15:44:36.142 [main] INFO  pages.SignInPage - Entering email
-2025-12-29 15:44:36.598 [main] INFO  pages.SignInPage - Clicking Continue button
-2025-12-29 15:44:38.642 [main] INFO  pages.SignInPage - Entering password
-2025-12-29 15:44:38.986 [main] INFO  pages.SignInPage - Clicking Sign In button
-2025-12-29 15:44:40.937 [main] INFO  testCases.SignInValidation - Validating login failure
-2025-12-29 15:44:40.938 [main] INFO  pages.SignInPage - Checking login error message
-2025-12-29 15:44:40.998 [main] ERROR pages.SignInPage - Login error message displayed: There was a problem
-2025-12-29 15:44:41.194 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_FillCreds
-2025-12-29 16:58:05.399 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
-2025-12-29 16:58:50.480 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
-2025-12-29 17:01:01.892 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
-2025-12-29 17:03:14.531 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
-2025-12-29 17:03:22.997 [main] INFO  testCases.SignInValidation - Starting login test with expected result: pass
-2025-12-29 17:03:22.997 [main] INFO  pages.SignInPage - Entering email
-2025-12-29 17:03:23.474 [main] INFO  pages.SignInPage - Clicking Continue button
-2025-12-29 17:03:24.279 [main] INFO  pages.SignInPage - Entering password
-2025-12-29 17:03:38.984 [main] INFO  testCases.SignInValidation - Starting login test with expected result: fail
-2025-12-29 17:03:38.984 [main] INFO  pages.SignInPage - Entering email
-2025-12-29 17:04:00.430 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
-2025-12-29 17:04:05.667 [main] INFO  testCases.SignInValidation - Starting login test with expected result: pass
-2025-12-29 17:04:05.668 [main] INFO  pages.SignInPage - Entering email
-2025-12-29 17:04:06.528 [main] INFO  pages.SignInPage - Clicking Continue button
-2025-12-29 17:04:09.122 [main] INFO  pages.SignInPage - Entering password
-2025-12-29 17:04:09.576 [main] INFO  pages.SignInPage - Clicking Sign In button
-2025-12-29 17:04:16.022 [main] INFO  testCases.SignInValidation - Validating successful login
-2025-12-29 17:04:16.022 [main] INFO  pages.SignInPage - Checking if user is logged in
-2025-12-29 17:04:19.041 [main] INFO  testCases.SignInValidation - Starting login test with expected result: fail
-2025-12-29 17:04:19.042 [main] INFO  pages.SignInPage - Entering email
-2025-12-29 17:04:19.630 [main] INFO  pages.SignInPage - Clicking Continue button
-2025-12-29 17:04:21.862 [main] INFO  pages.SignInPage - Entering password
-2025-12-29 17:04:22.255 [main] INFO  pages.SignInPage - Clicking Sign In button
-2025-12-29 17:04:24.252 [main] INFO  testCases.SignInValidation - Validating login failure
-2025-12-29 17:04:24.252 [main] INFO  pages.SignInPage - Checking login error message
-2025-12-29 17:04:24.276 [main] WARN  pages.SignInPage - Login error message not found
+2025-12-31 13:49:28.418 [main] INFO  pages.HomePage - CLICK ON LANGAUGE LOGO
+2025-12-31 13:49:44.269 [main] INFO  pages.HomePage - Successfully navigate langauge page
+2025-12-31 13:49:44.270 [main] INFO  pages.HomePage - Test Case Pass
+2025-12-31 13:49:44.295 [main] INFO  pages.HomePage - User wants to change language to: Hello
+2025-12-31 13:49:44.734 [main] ERROR pages.HomePage - Language not found: Hello

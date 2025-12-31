@@ -1,83 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-29T17:04:00 IST" name="Default suite" finished-at="2025-12-29T17:04:24 IST" duration-ms="24228">
+  <suite started-at="2025-12-31T13:49:28 IST" name="Default suite" finished-at="2025-12-31T13:49:44 IST" duration-ms="16569">
     <groups>
-      <group name="HomePage">
-        <method signature="SignInValidation.TC01_OpenSingInPage()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" name="TC01_OpenSingInPage" class="testCases.SignInValidation"/>
-        <method signature="SignInValidation.TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@4ed5eb72]" name="TC02_FillCreds" class="testCases.SignInValidation"/>
-      </group> <!-- HomePage -->
-      <group name="regression">
-        <method signature="SignInValidation.TC01_OpenSingInPage()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" name="TC01_OpenSingInPage" class="testCases.SignInValidation"/>
-        <method signature="SignInValidation.TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@4ed5eb72]" name="TC02_FillCreds" class="testCases.SignInValidation"/>
-      </group> <!-- regression -->
-      <group name="SignIn">
-        <method signature="SignInValidation.TC01_OpenSingInPage()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" name="TC01_OpenSingInPage" class="testCases.SignInValidation"/>
-        <method signature="SignInValidation.TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@4ed5eb72]" name="TC02_FillCreds" class="testCases.SignInValidation"/>
-      </group> <!-- SignIn -->
     </groups>
-    <test started-at="2025-12-29T17:04:00 IST" name="Default test" finished-at="2025-12-29T17:04:24 IST" duration-ms="24228">
-      <class name="testCases.SignInValidation">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" started-at="2025-12-29T17:03:50 IST" name="OpenBrowser" finished-at="2025-12-29T17:04:00 IST" duration-ms="9592" status="PASS">
+    <test started-at="2025-12-31T13:49:28 IST" name="Default test" finished-at="2025-12-31T13:49:44 IST" duration-ms="16569">
+      <class name="testCases.HomePageValidation">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:testCases.HomePageValidation@4ed5eb72]" started-at="2025-12-31T13:49:22 IST" name="OpenBrowser" finished-at="2025-12-31T13:49:28 IST" duration-ms="5761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" started-at="2025-12-29T17:04:00 IST" name="Objcet" finished-at="2025-12-29T17:04:00 IST" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="Object()[pri:0, instance:testCases.HomePageValidation@4ed5eb72]" started-at="2025-12-31T13:49:28 IST" name="Object" finished-at="2025-12-31T13:49:28 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Objcet -->
-        <test-method signature="TC01_OpenSingInPage()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" started-at="2025-12-29T17:04:00 IST" name="TC01_OpenSingInPage" finished-at="2025-12-29T17:04:03 IST" duration-ms="3084" status="PASS">
+        </test-method> <!-- Object -->
+        <test-method signature="TC01_ClcikOnLangaugeLogo()[pri:0, instance:testCases.HomePageValidation@4ed5eb72]" started-at="2025-12-31T13:49:28 IST" name="TC01_ClcikOnLangaugeLogo" finished-at="2025-12-31T13:49:44 IST" duration-ms="15883" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC01_OpenSingInPage -->
-        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" started-at="2025-12-29T17:04:05 IST" name="Objcet" finished-at="2025-12-29T17:04:05 IST" duration-ms="30" status="PASS">
+        </test-method> <!-- TC01_ClcikOnLangaugeLogo -->
+        <test-method is-config="true" signature="Object()[pri:0, instance:testCases.HomePageValidation@4ed5eb72]" started-at="2025-12-31T13:49:44 IST" name="Object" finished-at="2025-12-31T13:49:44 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Objcet -->
-        <test-method signature="TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@4ed5eb72]" started-at="2025-12-29T17:04:05 IST" name="TC02_FillCreds" data-provider="ExcelData" finished-at="2025-12-29T17:04:19 IST" duration-ms="13379" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[88aamankhan@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Amna@071125]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[pass]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_FillCreds -->
-        <test-method is-config="true" signature="Objcet()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" started-at="2025-12-29T17:04:19 IST" name="Objcet" finished-at="2025-12-29T17:04:19 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Objcet -->
-        <test-method signature="TC02_FillCreds(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SignInValidation@4ed5eb72]" started-at="2025-12-29T17:04:19 IST" name="TC02_FillCreds" data-provider="ExcelData" finished-at="2025-12-29T17:04:24 IST" duration-ms="5259" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[88aamankhan@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Khan@00981]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[fail]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Object -->
+        <test-method signature="TC02_ClickOnLangaugebtn()[pri:0, instance:testCases.HomePageValidation@4ed5eb72]" started-at="2025-12-31T13:49:44 IST" name="TC02_ClickOnLangaugebtn" finished-at="2025-12-31T13:49:44 IST" duration-ms="529" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -86,9 +32,12 @@
               <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.SignInValidation.TC02_FillCreds(SignInValidation.java:40)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1043)
+at org.testng.Assert.assertEquals(Assert.java:1089)
+at testCases.HomePageValidation.TC02_ClickOnLangaugebtn(HomePageValidation.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -122,12 +71,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC02_FillCreds -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.SignInValidation@4ed5eb72]" started-at="2025-12-29T17:04:24 IST" name="TearDown" finished-at="2025-12-29T17:04:24 IST" duration-ms="375" status="PASS">
+        </test-method> <!-- TC02_ClickOnLangaugebtn -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.HomePageValidation@4ed5eb72]" started-at="2025-12-31T13:49:44 IST" name="TearDown" finished-at="2025-12-31T13:49:45 IST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- testCases.SignInValidation -->
+      </class> <!-- testCases.HomePageValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

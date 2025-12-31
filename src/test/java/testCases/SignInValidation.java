@@ -10,7 +10,7 @@ import pages.SignInPage;
 public class SignInValidation extends BaseTest {
 
 	SignInPage sp;
-	private static final Logger log = LogManager.getLogger(SignInValidation.class);
+	private static final Logger log = LogManager.getLogger(SignInPage.class);
 
 
 	@BeforeMethod(alwaysRun = true)

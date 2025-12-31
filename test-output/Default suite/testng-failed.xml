@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.SignInValidation">
+      <class name="testCases.HomePageValidation">
         <methods>
           <include name="OpenBrowser"/>
           <include name="TearDown"/>
-          <include name="TC02_FillCreds" invocation-numbers="1"/>
-          <include name="Objcet"/>
+          <include name="TC02_ClickOnLangaugebtn"/>
+          <include name="Object"/>
         </methods>
-      </class> <!-- testCases.SignInValidation -->
+      </class> <!-- testCases.HomePageValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
