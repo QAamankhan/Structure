@@ -1,11 +1,13 @@
 package pages;
 
+import java.security.Key;
 import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeoutException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -87,5 +89,28 @@ public class HomePage extends BaseClass {
 	    }
 	}
 
+	
+	@FindBy(id="twotabsearchtextbox") private WebElement searchtextboxElement; 
+	public void SearchProduct(String product) {
+		ElementClickable(searchtextboxElement);
+		log.info("Searching Product");
+		searchtextboxElement.sendKeys(product);
+		searchtextboxElement.sendKeys(Keys.ENTER);
+	}
+	
+	public boolean IsNavigateProductPage() {
+		String title=driver.getTitle();
+		
+		System.out.println(title);
+		if(title.toLowerCase().contains("laptop")) {
+			log.info("Product result page open ");
+			return true;
+		}else {
+			log.info("Something is wrong Product result page is not open");
+			return false;
+		}
+		
+	}
+	
 	
 }

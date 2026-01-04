@@ -4,16 +4,20 @@
   <listeners>
     <listener class-name="utilities.ListenerClass"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="ProductPage(failed)">
+    <groups>
+      <run>
+        <include name="productResult"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.SignInValidation">
+      <class name="testCases.ProductResultPageValidation">
         <methods>
           <include name="OpenBrowser"/>
-          <include name="TearDown"/>
-          <include name="TC02_FillCreds" invocation-numbers="0 1"/>
-          <include name="Objcet"/>
+          <include name="Object"/>
+          <include name="TC03_Addproducts"/>
         </methods>
-      </class> <!-- testCases.SignInValidation -->
+      </class> <!-- testCases.ProductResultPageValidation -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- ProductPage(failed) -->
 </suite> <!-- Failed suite [Suite] -->

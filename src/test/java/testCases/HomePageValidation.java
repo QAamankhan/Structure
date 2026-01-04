@@ -20,7 +20,7 @@ public class HomePageValidation extends BaseTest{
 	}
 	
 	
-	@Test
+	@Test(groups = {"homepage"})
 	public void TC01_ClcikOnLangaugeLogo() {
 		hp.ClickOnLogoChangeLangauge();
 		boolean result=hp.NavigateLangaugePage();
@@ -28,10 +28,18 @@ public class HomePageValidation extends BaseTest{
 		Assert.assertEquals(result, true);
 	}
 	
-	@Test
+	@Test(groups = {"homepage"})
 	public void TC02_ClickOnLangaugebtn() throws Exception {
 		hp.selectLanguage("HI");
 		boolean result=hp.isLanguageChanged();
 		Assert.assertEquals(result, true);
+	}
+	
+	@Test(groups = {"homepage","productResult"})
+	public void TC03_SerachProduct() {
+		hp.SearchProduct("laptop");
+		boolean result =hp.IsNavigateProductPage();
+		Assert.assertEquals(result, true);
+		
 	}
 }

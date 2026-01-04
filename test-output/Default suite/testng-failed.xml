@@ -5,9 +5,9 @@
     <classes>
       <class name="testCases.HomePageValidation">
         <methods>
+          <include name="TC03_SerachProduct"/>
           <include name="OpenBrowser"/>
           <include name="TearDown"/>
-          <include name="TC02_ClickOnLangaugebtn"/>
           <include name="Object"/>
         </methods>
       </class> <!-- testCases.HomePageValidation -->

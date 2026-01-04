@@ -25,7 +25,7 @@ public class BaseTest {
 	public static WebDriver driver;
 	ReadConfig rc;
 	
-	@BeforeClass(alwaysRun = true)
+	@BeforeSuite(alwaysRun = true)
 	public void OpenBrowser() {
 		rc = new ReadConfig();
 		
@@ -36,7 +36,7 @@ public class BaseTest {
 		case "chrome":
 			ChromeOptions options= new ChromeOptions();
 			options.addArguments("--incognito");
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
 			driver.navigate().to(url);
 			break;
 
@@ -73,7 +73,7 @@ public class BaseTest {
 	
 
 	
-	@AfterClass(alwaysRun = true)
+	@AfterSuite(alwaysRun = true)
 	public void TearDown() {
 		driver.close();
 	}
