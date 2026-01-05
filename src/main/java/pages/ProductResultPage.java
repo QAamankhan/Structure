@@ -1,6 +1,5 @@
 package pages;
 
-import java.util.Iterator;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -10,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import base.BaseClass;
-import io.opentelemetry.sdk.metrics.internal.concurrent.AdderUtil;
 
 public class ProductResultPage extends BaseClass {
 
@@ -28,32 +26,23 @@ public class ProductResultPage extends BaseClass {
 	@FindBy(xpath = "//div[@id='brandsRefinements']//span[@class='a-size-base a-color-base']")
 	private List<WebElement> brandsElements;
 
-	public void chooseBrand(String brandName) {
-
-		ElementClickable(featuredElement);
-
-		ElementVisible(bestsellerElement);
-		ElementClickable(bestsellerElement);
-
+	public boolean chooseBrand(String brandName) {
 		log.info("Selecting brand: " + brandName);
 
-		boolean isBrandFound = false;
-
 		for (WebElement brand : brandsElements) {
+			ElementVisible(brand);
 			String name = brand.getText().trim();
 
-			if (name.equalsIgnoreCase(brandName)) {
+			if (name.toLowerCase().contains(brandName.toLowerCase())) {
 				brand.click();
 				log.info("Brand selected successfully: " + brandName);
-				isBrandFound = true;
-				break;
+				return true;
 			}
+
 		}
 
-		if (!isBrandFound) {
-			log.warn("Brand not found: " + brandName);
-		}
-
+		log.warn("Brand not found: " + brandName);
+		return false;
 	}
 
 	@FindBy(xpath = "//div[@class='a-section a-spacing-small a-spacing-top-small']//h2/span")
@@ -77,11 +66,11 @@ public class ProductResultPage extends BaseClass {
 
 	public void addProductInCart(int count) {
 
-	    int productsToAdd = Math.min(count, addtocartElements.size());
+		int productsToAdd = Math.min(count, addtocartElements.size());
 
-	    for (int i = 0; i < productsToAdd; i++) {
-	        log.info("Adding product " + (i + 1));
-	        addtocartElements.get(i).click();
-	    }
+		for (int i = 0; i < productsToAdd; i++) {
+			log.info("Adding product " + (i + 1));
+			addtocartElements.get(i).click();
+		}
 	}
 }

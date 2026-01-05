@@ -11,6 +11,14 @@
           <include name="Object"/>
         </methods>
       </class> <!-- testCases.HomePageValidation -->
+      <class name="testCases.ProductResultPageValidation">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="TearDown"/>
+          <include name="TC01_ChoseHpLaptop"/>
+          <include name="Object"/>
+        </methods>
+      </class> <!-- testCases.ProductResultPageValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

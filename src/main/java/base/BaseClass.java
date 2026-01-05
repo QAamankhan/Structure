@@ -32,7 +32,7 @@ public class BaseClass {
 
 	public void ScrollElement(WebElement element) {
 		js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0]scrollIntoView(true);", null);
+		js.executeScript("arguments[0]scrollIntoView(true);", element);
 	}
 	
 	protected WebElement waitForVisible(By locator) {

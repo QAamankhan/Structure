@@ -62,6 +62,9 @@ public class SignInPage extends BaseClass {
 		ElementClickable(signbtnElement);
 	}
 
+	
+
+
 	public boolean isLoginSuccessful() {
 		try {
 			log.info("Checking if user is logged in");

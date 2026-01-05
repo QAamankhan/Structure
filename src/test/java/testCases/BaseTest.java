@@ -13,8 +13,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 
 import utilities.ExcelReader;
@@ -25,7 +27,7 @@ public class BaseTest {
 	public static WebDriver driver;
 	ReadConfig rc;
 	
-	@BeforeSuite(alwaysRun = true)
+	@BeforeTest(alwaysRun = true)
 	public void OpenBrowser() {
 		rc = new ReadConfig();
 		
@@ -73,7 +75,7 @@ public class BaseTest {
 	
 
 	
-	@AfterSuite(alwaysRun = true)
+	@AfterTest(alwaysRun = true)
 	public void TearDown() {
 		driver.close();
 	}

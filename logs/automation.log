@@ -1,38 +1,92 @@
-2026-01-04 17:14:09.256 [main] INFO  pages.HomePage - Searching Product
-2026-01-04 17:14:13.897 [main] INFO  pages.HomePage - Product result page open 
-2026-01-04 17:14:14.237 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_SerachProduct
-2026-01-04 17:14:14.488 [main] INFO  pages.ProductResultPage - Selecting brand: hp
-2026-01-04 17:14:14.958 [main] INFO  pages.ProductResultPage - Brand selected successfully: hp
-2026-01-04 17:14:15.206 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_ChoseHpLaptop
-2026-01-04 17:14:15.475 [main] INFO  pages.ProductResultPage - All products are HP brand
-2026-01-04 17:14:16.752 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_CheckAllProductIsHp
-2026-01-04 17:24:18.758 [main] INFO  pages.HomePage - Searching Product
-2026-01-04 17:24:23.619 [main] INFO  pages.HomePage - Product result page open 
-2026-01-04 17:24:23.971 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_SerachProduct
-2026-01-04 17:24:25.915 [main] INFO  pages.ProductResultPage - Selecting brand: hp
-2026-01-04 17:24:26.003 [main] WARN  pages.ProductResultPage - Brand not found: hp
-2026-01-04 17:24:26.220 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_ChoseHpLaptop
-2026-01-04 17:24:26.322 [main] INFO  pages.ProductResultPage - All products are HP brand
-2026-01-04 17:24:26.817 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_CheckAllProductIsHp
-2026-01-04 17:24:33.415 [main] ERROR utilities.ListenerClass - TEST FAILED : TC03_Addproducts
-2026-01-04 17:25:57.702 [main] INFO  pages.HomePage - Searching Product
-2026-01-04 17:26:02.246 [main] INFO  pages.HomePage - Product result page open 
-2026-01-04 17:26:02.672 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_SerachProduct
-2026-01-04 17:26:04.378 [main] INFO  pages.ProductResultPage - Selecting brand: hp
-2026-01-04 17:26:04.457 [main] WARN  pages.ProductResultPage - Brand not found: hp
-2026-01-04 17:26:04.629 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_ChoseHpLaptop
-2026-01-04 17:26:04.674 [main] INFO  pages.ProductResultPage - All products are HP brand
-2026-01-04 17:26:04.871 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_CheckAllProductIsHp
-2026-01-04 17:26:05.198 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_Addproducts
-2026-01-04 17:30:37.090 [main] INFO  pages.HomePage - Searching Product
-2026-01-04 17:30:42.318 [main] INFO  pages.HomePage - Product result page open 
-2026-01-04 17:30:42.872 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_SerachProduct
-2026-01-04 17:30:44.746 [main] INFO  pages.ProductResultPage - Selecting brand: hp
-2026-01-04 17:30:44.846 [main] WARN  pages.ProductResultPage - Brand not found: hp
-2026-01-04 17:30:45.035 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_ChoseHpLaptop
-2026-01-04 17:30:45.119 [main] INFO  pages.ProductResultPage - All products are HP brand
-2026-01-04 17:30:45.326 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_CheckAllProductIsHp
-2026-01-04 17:30:45.615 [main] INFO  pages.ProductResultPage - Adding product 1
-2026-01-04 17:30:46.267 [main] INFO  pages.ProductResultPage - Adding product 2
-2026-01-04 17:30:46.525 [main] INFO  pages.ProductResultPage - Adding product 3
-2026-01-04 17:30:47.092 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_Addproducts
+2026-01-05 18:29:43.252 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
+2026-01-05 18:29:45.593 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_OpenSingInPage
+2026-01-05 18:29:47.422 [main] INFO  pages.SignInPage - Starting login test with expected result: pass
+2026-01-05 18:29:47.423 [main] INFO  pages.SignInPage - Entering email
+2026-01-05 18:29:47.942 [main] INFO  pages.SignInPage - Clicking Continue button
+2026-01-05 18:29:50.542 [main] INFO  pages.SignInPage - Entering password
+2026-01-05 18:29:50.955 [main] INFO  pages.SignInPage - Clicking Sign In button
+2026-01-05 18:29:57.259 [main] INFO  pages.SignInPage - Validating successful login
+2026-01-05 18:29:57.713 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_FillCreds
+2026-01-05 18:29:57.727 [main] INFO  pages.SignInPage - Starting login test with expected result: 
+2026-01-05 18:29:57.728 [main] INFO  pages.SignInPage - Entering email
+2026-01-05 18:30:18.425 [main] ERROR utilities.ListenerClass - TEST FAILED : TC02_FillCreds
+2026-01-05 18:30:18.790 [main] INFO  pages.HomePage - Searching Product
+2026-01-05 18:30:22.038 [main] INFO  pages.HomePage - Product result page open 
+2026-01-05 18:30:22.208 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_SerachProduct
+2026-01-05 18:30:22.226 [main] INFO  pages.HomePage - CLICK ON LANGAUGE LOGO
+2026-01-05 18:30:23.525 [main] INFO  pages.HomePage - Successfully navigate langauge page
+2026-01-05 18:30:23.643 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_ClcikOnLangaugeLogo
+2026-01-05 18:30:23.653 [main] INFO  pages.HomePage - User wants to change language to: HI
+2026-01-05 18:30:24.175 [main] INFO  pages.HomePage - Language changed successfully to: HI
+2026-01-05 18:30:26.527 [main] INFO  pages.HomePage - Language changed successfully
+2026-01-05 18:30:26.658 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_ClickOnLangaugebtn
+2026-01-05 18:30:26.678 [main] INFO  pages.ProductResultPage - Selecting brand: hp
+2026-01-05 18:30:47.205 [main] ERROR utilities.ListenerClass - TEST FAILED : TC01_ChoseHpLaptop
+2026-01-05 18:30:47.274 [main] INFO  pages.ProductResultPage - This is NOT HP brand: acer smartchoice aspire lite, amd ryzen 5-5625u प्रोसेसर, 16 gb/512 gb, full hd, 15.6"/39.62 cm, विंडोज 11 होम, स्टील ग्रे, 1.59 kg, al15-41, मेटल बॉडी, पतला और हल्का लैपटॉप
+2026-01-05 18:30:47.405 [main] ERROR utilities.ListenerClass - TEST FAILED : TC02_CheckAllProductIsHp
+2026-01-05 18:30:47.439 [main] INFO  pages.ProductResultPage - Adding product 1
+2026-01-05 18:30:47.704 [main] INFO  pages.ProductResultPage - Adding product 2
+2026-01-05 18:30:48.019 [main] INFO  pages.ProductResultPage - Adding product 3
+2026-01-05 18:30:48.494 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_Addproducts
+2026-01-05 18:30:50.816 [main] INFO  pages.CartPage - Total items in cart: 3
+2026-01-05 18:30:51.213 [main] INFO  pages.CartPage - Remaining items: 2
+2026-01-05 18:30:52.551 [main] INFO  pages.CartPage - Remaining items: 1
+2026-01-05 18:30:53.890 [main] INFO  pages.CartPage - Remaining items: 0
+2026-01-05 18:30:55.056 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_deleItem
+2026-01-05 18:30:56.748 [main] INFO  pages.CartPage - Cart is empty
+2026-01-05 18:30:56.893 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_CartIteamCount
+2026-01-05 18:44:56.998 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
+2026-01-05 18:44:59.810 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_OpenSingInPage
+2026-01-05 18:45:01.463 [main] INFO  pages.SignInPage - Starting login test with expected result: pass
+2026-01-05 18:45:01.468 [main] INFO  pages.SignInPage - Entering email
+2026-01-05 18:45:01.994 [main] INFO  pages.SignInPage - Clicking Continue button
+2026-01-05 18:45:04.457 [main] INFO  pages.SignInPage - Entering password
+2026-01-05 18:45:04.802 [main] INFO  pages.SignInPage - Clicking Sign In button
+2026-01-05 18:45:11.064 [main] INFO  pages.SignInPage - Validating successful login
+2026-01-05 18:45:12.541 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_FillCreds
+2026-01-05 18:45:12.577 [main] INFO  pages.SignInPage - Starting login test with expected result: 
+2026-01-05 18:45:12.578 [main] INFO  pages.SignInPage - Entering email
+2026-01-05 18:45:32.727 [main] ERROR utilities.ListenerClass - TEST FAILED : TC02_FillCreds
+2026-01-05 18:45:32.992 [main] INFO  pages.HomePage - Searching Product
+2026-01-05 18:45:35.522 [main] INFO  pages.HomePage - Product result page open 
+2026-01-05 18:45:35.691 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_SerachProduct
+2026-01-05 18:45:35.704 [main] INFO  pages.HomePage - CLICK ON LANGAUGE LOGO
+2026-01-05 18:45:55.861 [main] ERROR utilities.ListenerClass - TEST FAILED : TC01_ClcikOnLangaugeLogo
+2026-01-05 18:45:55.877 [main] INFO  pages.HomePage - User wants to change language to: HI
+2026-01-05 18:45:55.918 [main] ERROR pages.HomePage - Language not found: HI
+2026-01-05 18:45:55.973 [main] INFO  pages.HomePage - Language changed successfully
+2026-01-05 18:45:56.079 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_ClickOnLangaugebtn
+2026-01-05 18:45:56.092 [main] INFO  pages.ProductResultPage - Selecting brand: hp
+2026-01-05 18:46:16.412 [main] INFO  pages.ProductResultPage - Selecting brand: hp
+2026-01-05 18:46:36.613 [main] INFO  pages.ProductResultPage - Selecting brand: hp
+2026-01-05 18:48:15.324 [main] INFO  pages.SignInPage - CLICK ON SIGN IN BUTTON
+2026-01-05 18:48:21.793 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_OpenSingInPage
+2026-01-05 18:48:23.384 [main] INFO  pages.SignInPage - Starting login test with expected result: pass
+2026-01-05 18:48:23.385 [main] INFO  pages.SignInPage - Entering email
+2026-01-05 18:48:23.956 [main] INFO  pages.SignInPage - Clicking Continue button
+2026-01-05 18:48:26.358 [main] INFO  pages.SignInPage - Entering password
+2026-01-05 18:48:26.719 [main] INFO  pages.SignInPage - Clicking Sign In button
+2026-01-05 18:48:31.370 [main] INFO  pages.SignInPage - Validating successful login
+2026-01-05 18:48:31.800 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_FillCreds
+2026-01-05 18:48:31.814 [main] INFO  pages.SignInPage - Starting login test with expected result: 
+2026-01-05 18:48:31.815 [main] INFO  pages.SignInPage - Entering email
+2026-01-05 18:48:52.453 [main] ERROR utilities.ListenerClass - TEST FAILED : TC02_FillCreds
+2026-01-05 18:48:52.733 [main] INFO  pages.HomePage - Searching Product
+2026-01-05 18:48:57.643 [main] INFO  pages.HomePage - Product result page open 
+2026-01-05 18:48:58.005 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_SerachProduct
+2026-01-05 18:48:58.021 [main] INFO  pages.HomePage - CLICK ON LANGAUGE LOGO
+2026-01-05 18:49:18.382 [main] ERROR utilities.ListenerClass - TEST FAILED : TC01_ClcikOnLangaugeLogo
+2026-01-05 18:49:18.397 [main] INFO  pages.HomePage - User wants to change language to: HI
+2026-01-05 18:49:18.432 [main] ERROR pages.HomePage - Language not found: HI
+2026-01-05 18:49:18.485 [main] INFO  pages.HomePage - Language changed successfully
+2026-01-05 18:49:18.684 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_ClickOnLangaugebtn
+2026-01-05 18:49:18.698 [main] INFO  pages.ProductResultPage - Selecting brand: hp
+2026-01-05 18:49:19.132 [main] INFO  pages.ProductResultPage - Brand selected successfully: hp
+2026-01-05 18:49:19.442 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_ChoseHpLaptop
+2026-01-05 18:49:19.504 [main] INFO  pages.ProductResultPage - All products are HP brand
+2026-01-05 18:49:19.711 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_CheckAllProductIsHp
+2026-01-05 18:49:20.053 [main] INFO  utilities.ListenerClass - TEST PASSED : TC03_Addproducts
+2026-01-05 18:49:23.896 [main] INFO  pages.CartPage - Total items in cart: 0
+2026-01-05 18:49:24.133 [main] INFO  utilities.ListenerClass - TEST PASSED : TC02_deleItem
+2026-01-05 18:49:25.963 [main] INFO  pages.CartPage - Cart is empty
+2026-01-05 18:49:26.204 [main] INFO  utilities.ListenerClass - TEST PASSED : TC01_CartIteamCount
